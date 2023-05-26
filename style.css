@@ -1,0 +1,42 @@
+body {
+    background-image: url(banner6.png);
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 50px;
+    width: 30%;
+}
+
+h1 {
+    font-size: 44px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+}
+
+.buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+}
+
+button.yes:hover {
+    background-color: darkgreen;
+}
+
+button.no:hover {
+    background-color: crimson;
+}
